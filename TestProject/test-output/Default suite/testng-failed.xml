@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.TestPrgm">
+        <methods>
+          <include name="loginTestUsingExcel" invocation-numbers="1 2"/>
+          <include name="btest"/>
+          <include name="setUpBrowser"/>
+          <include name="tearDown"/>
+          <include name="bsuite"/>
+          <include name="ameth"/>
+        </methods>
+      </class> <!-- tests.TestPrgm -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

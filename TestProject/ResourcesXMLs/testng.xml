@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="HRM">
+	<test name="Login1">
+		<parameter name="browsername" value="Chrome" />
+		<classes>
+			<class name="tests.TestPrgm" />
+		</classes>
+	</test>
+<!-- 	 <test name="Login2">
+		<parameter name="browsername" value="Firefox" />
+		<classes>
+			<class name="tests.TestPrgm" />
+		</classes>
+	</test> -->
+</suite>

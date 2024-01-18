@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test2(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="selenium_grid.FireFoxClass">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUpBrowser"/>
+          <include name="firefoxTest"/>
+          <include name="removeThread"/>
+        </methods>
+      </class> <!-- selenium_grid.FireFoxClass -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="2" parallel="tests" name="Test1(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="selenium_grid.ChromeClass">
+        <methods>
+          <include name="setUpBrowser"/>
+          <include name="tearDown"/>
+          <include name="chromeTest"/>
+          <include name="removeThread"/>
+        </methods>
+      </class> <!-- selenium_grid.ChromeClass -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

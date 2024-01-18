@@ -1,0 +1,10 @@
+basepack\BaseTest.class
+utils\ExtentReportConfig.class
+dbconfig\DataProviderClass.class
+dbconfig\DBConfig.class
+dbconfig\EmployeeDetails.class
+utils\LogHelper.class
+utils\PropertyReader.class
+utils\Browsers.class
+utils\CommonFunctions.class
+utils\ExcelUtility.class
