@@ -40,12 +40,8 @@ import utils.ExtentReportConfig;
 import utils.LogHelper;
 import utils.PropertyReader;
 /**
- * 
- * 
  * @author DELL
- * 
  * This class is a base class to the project
- *
  */
 public class BaseTest {
 
