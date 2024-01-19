@@ -7,6 +7,11 @@ import org.testng.annotations.Test;
 
 import utils.ExcelUtility;
 
+/**
+ * This class will have all dataproviders
+ * @author DELL
+ *
+ */
 public class DataProviderClass {
 	
 	@DataProvider(name = "DP")
